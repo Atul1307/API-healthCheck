@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1a2b3c4d-1111-1111-1111-111111111111",
+    "name": "Hacker News Search",
+    "url": "https://hn.algolia.com/api/v1/search?query=ai",
+    "status": "SLOW",
+    "latencyMs": 954,
+    "lastCheckedAt": "2026-03-01T14:34:51.744Z",
+    "healthScore": 52
+  },
+  {
+    "id": "2a2b3c4d-2222-2222-2222-222222222222",
+    "name": "Open-Meteo Weather",
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=1.29&longitude=103.85&current_weather=true",
+    "status": "DOWN",
+    "latencyMs": 4459,
+    "lastCheckedAt": "2026-03-01T15:10:15.917Z",
+    "healthScore": 0
+  },
+  {
+    "id": "3a2b3c4d-3333-3333-3333-333333333333",
+    "name": "Github - vercel",
+    "url": "https://api.github.com/repos/vercel/next.js",
+    "status": "SLOW",
+    "latencyMs": 1304,
+    "lastCheckedAt": "2026-03-01T14:55:04.269Z",
+    "healthScore": 35
+  },
+  {
+    "id": "4a2b3c4d-4444-4444-4444-444444444444",
+    "name": "REST Countries(Singapore)",
+    "url": "https://restcountries.com/v3.1/name/singapore",
+    "status": "SLOW",
+    "latencyMs": 1960,
+    "lastCheckedAt": "2026-03-01T15:10:21.059Z",
+    "healthScore": 26
+  }
+]

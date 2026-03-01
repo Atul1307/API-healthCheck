@@ -3,36 +3,36 @@
     "id": "1a2b3c4d-1111-1111-1111-111111111111",
     "name": "Hacker News Search",
     "url": "https://hn.algolia.com/api/v1/search?query=ai",
-    "status": "UP",
-    "latencyMs": 494,
-    "lastCheckedAt": "2026-03-01T15:38:09.630Z",
-    "healthScore": 75
+    "status": "SLOW",
+    "latencyMs": 536,
+    "lastCheckedAt": "2026-03-01T16:18:00.691Z",
+    "healthScore": 73
   },
   {
     "id": "2a2b3c4d-2222-2222-2222-222222222222",
     "name": "Open-Meteo Weather",
     "url": "https://api.open-meteo.com/v1/forecast?latitude=1.29&longitude=103.85&current_weather=true",
     "status": "SLOW",
-    "latencyMs": 1330,
-    "lastCheckedAt": "2026-03-01T15:38:06.798Z",
-    "healthScore": 47
+    "latencyMs": 1294,
+    "lastCheckedAt": "2026-03-01T16:19:21.815Z",
+    "healthScore": 48
   },
   {
     "id": "3a2b3c4d-3333-3333-3333-333333333333",
     "name": "Github - vercel",
     "url": "https://api.github.com/repos/vercel/next.js",
-    "status": "SLOW",
-    "latencyMs": 1304,
-    "lastCheckedAt": "2026-03-01T14:55:04.269Z",
-    "healthScore": 35
+    "status": "UP",
+    "latencyMs": 394,
+    "lastCheckedAt": "2026-03-01T16:18:00.562Z",
+    "healthScore": 80
   },
   {
     "id": "4a2b3c4d-4444-4444-4444-444444444444",
     "name": "REST Countries(Singapore)",
     "url": "https://restcountries.com/v3.1/name/singapore",
     "status": "SLOW",
-    "latencyMs": 1960,
-    "lastCheckedAt": "2026-03-01T15:10:21.059Z",
-    "healthScore": 26
+    "latencyMs": 1304,
+    "lastCheckedAt": "2026-03-01T16:19:34.513Z",
+    "healthScore": 48
   }
 ]

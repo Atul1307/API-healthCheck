@@ -27,7 +27,7 @@ export async function POST(request){
         healthScore: null
     }
 
-    const checkedService = await performHealthCheck(newService);
+    const checkedService = await performHealthCheck(newService, true);
     const services = readServices();
     services.push(checkedService);
     writeServices(services);

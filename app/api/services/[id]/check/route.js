@@ -10,7 +10,7 @@ export async function POST(request, { params }){
     if(!service){
         return NextResponse.json({ error: 'Service not found' }, {status: 404});
     }
-    const updated = await performHealthCheck(service);
+    const updated = await performHealthCheck(service, true);
     const newServices = services.map((s) => (s.id === id ? updated : s));
     writeServices(newServices);
 
